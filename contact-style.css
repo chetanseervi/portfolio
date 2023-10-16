@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav {
+    padding-top: 20px;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+span {
+    font-weight: 600;
+}
+
+.left {
+    width: 450px;
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+.right {
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    padding-right: 30px;
+    cursor: pointer;
+}
+
+.right div {
+    height: 27px;
+    border-radius: 7px;
+    transition: .5s;
+}
+
+.right div:hover {
+    background-color: blue;
+    color: white;
+}
+
+.big {
+    width: 100%;
+    height: 550px;
+    display: flex;
+}
+
+.big1 {
+    width: 700px;
+    height: 550px;
+    background-color: rgba(0, 0, 128, 0.432);
+    display: flex;
+    z-index: -1;
+    position: absolute;
+    border-radius: 0px 100px 100px 0px;
+}
+
+.small-left,
+.small-right {
+    height: 500px;
+    z-index: 1;
+    margin-top: 23px;
+}
+
+.small-left {
+    background-color: navy;
+    width: 310px;
+    box-shadow: 8px black;
+    margin-left: 450px;
+}
+
+.small-right {
+    width: 350px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.small-right label,
+button {
+    font-size: 17px;
+}
+
+.contact-details input {
+    width: 90%;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid blue;
+}
+
+.contact-details button {
+    width: 90%;
+    height: 30px;
+    background-color: blue;
+    color: white;
+}
+
+.contact-details button:hover {
+    border: non;
+    background-color: white;
+    color: blue;
+}
+
+.contact-details textarea {
+    width: 90%;
+    border: none;
+    border-bottom: 2px solid blue;
+}
+
+.small-in {
+    height: 450px;
+    width: 100%;
+}
+
+.small-down {
+    padding-top: 10px;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.small-down img {
+    height: 25px;
+    object-fit: cover;
+    transition: transform 400ms;
+}
+
+.small-down img:hover {
+    transform: scale(1.2);
+}
+
+.small-in img {
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.small-in p {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.buttom {
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+}
+
+.bottom-left {
+    padding-top: 50px;
+    width: 250px;
+}
+
+.bottom-right {
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 50px;
+}
